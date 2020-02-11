@@ -59,9 +59,9 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
-     dennis_lang = dennis_ritchies_language[:dennis_ritchie][:languages]
-     dennis_lang.join("")
-end
+     dennis_language = programmer_hash[:dennis_ritchie][:languages]
+     dennis_language.join(" ")
+    end
 
 def adding_matz
   programmer_hash[:yukihiro_matsumoto] = {
